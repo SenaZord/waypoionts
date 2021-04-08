@@ -75,4 +75,10 @@ public class FollowPath : MonoBehaviour
         g.AStar(currentNode, wps[6]);
         currentWP = 0;
     }
+    //função de botão para movimentar o tank para a fabrica no wp 10
+    public void GoToFactory()
+    {
+        g.AStar(currentNode, wps[10]);
+        currentWP = 0;
+    }
 }
